@@ -1,0 +1,9 @@
+@use '@material/circular-progress/mixins' as circular-progress;
+@use '@material/theme/color-palette';
+
+.my-four-colors {
+  @include circular-progress.indeterminate-colors(
+    color-palette.$green-500 color-palette.$yellow-500 color-palette.$red-500
+      color-palette.$blue-500
+  );
+}

@@ -1,0 +1,13 @@
+@use '@smui/paper/mixins' as paper;
+@use '@material/theme/color-palette';
+@use '@material/theme/theme-color';
+
+@include paper.paper-color(
+  custom-green,
+  color-palette.$green-600,
+  theme-color.accessible-ink-color(color-palette.$green-600)
+);
+
+.custom-green {
+  color: color-palette.$green-600;
+}

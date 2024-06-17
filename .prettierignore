@@ -1,0 +1,11 @@
+node_modules
+bare.css
+CHANGELOG.md
+package-lock.json
+dist
+.svelte-kit
+/.github
+/lerna.json
+/packages/site/build
+/packages/site/static/*.css
+/packages/svelte-material-ui/themes
